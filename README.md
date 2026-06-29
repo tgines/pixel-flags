@@ -1,5 +1,7 @@
 # Pixel Flags
 
+![Pixel-art close-up of the US flag](pixel-preview.png)
+
 A free set of **196 country (and a few extra) flags** drawn as crisp little pixel icons, **16 × 12 px**. Built for tight spaces — language switchers, leaderboards, address forms, data tables, status bars — anywhere a full-detail flag would turn to mush.
 
 Every flag ships in three formats so you can drop it into a website, an app, or a design file without converting anything:
@@ -9,8 +11,6 @@ Every flag ships in three formats so you can drop it into a website, an app, or 
 | [`svg/`](svg) | SVG (vector) | scales to any size | the web, retina, design tools |
 | [`png/`](png) | PNG | 16 × 12 px | pixel-perfect 1× raster use |
 | [`png-2x/`](png-2x) | PNG | 32 × 24 px | retina / high-DPI raster use |
-
-![All flags organized by region](flags-by-region.png)
 
 ## Why pixel flags?
 
@@ -60,7 +60,9 @@ A few entries fall outside ISO: the EU uses its reserved `eu`, England uses the 
 
 ## Coverage
 
-196 flags spanning every region, plus a handful of extras (the EU, England, Puerto Rico, Vatican City — and Mars, for fun). See [`flags-by-region.png`](flags-by-region.png) above for the full visual index.
+196 flags spanning every region, plus a handful of extras (the EU, England, Puerto Rico, Vatican City — and Mars, for fun).
+
+![All flags organized by region](flags-by-region.png)
 
 <details>
 <summary><strong>Full A–Z list (with codes)</strong></summary>
