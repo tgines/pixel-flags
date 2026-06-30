@@ -1,0 +1,21 @@
+# Pixel Flags
+
+> A free, MIT-licensed set of 200 country (and a few extra) flags drawn as crisp 16×12 pixel-art icons. Each flag ships as SVG (vector), PNG (16×12 px), and 2× PNG (32×24 px). Built to stay legible at icon size — for language switchers, leaderboards, data tables, address forms, and status bars.
+
+Files are named `<code>-<name>.<ext>`, lowercase and hyphenated, where `<code>` is the ISO 3166-1 alpha-2 country code — so you can build a path straight from a code you already have: `svg/br-brazil.svg`, `png/jp-japan.png`, `png-2x/kr-south-korea.png`. A few non-ISO entries: European Union `eu`, England `gb-eng`, and Mars (`mars`, no code).
+
+## Get a flag
+
+- CDN, no install: `https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/br-brazil.svg` (swap `@main` for a tag like `@1.0.0` to pin a version)
+- npm: `npm i pixel-flags`, then reference `pixel-flags/svg/br-brazil.svg`
+- From an ISO code you already have: the path is `svg/${code}-${slug}.svg`
+
+## Machine-readable index
+
+- [flags.json](https://raw.githubusercontent.com/tgines/pixel-flags/main/flags.json): every flag with its `code`, `name`, `slug`, and the path to each format. Fetch this one file to enumerate the full set programmatically.
+
+## Resources
+
+- [Gallery](https://tgines.github.io/pixel-flags/): browsable, searchable view of all 200 flags
+- [Repository](https://github.com/tgines/pixel-flags)
+- [README](https://github.com/tgines/pixel-flags#readme)
