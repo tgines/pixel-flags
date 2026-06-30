@@ -4,6 +4,8 @@
 
 A free set of **200 country (and a few extra) flags** drawn as crisp little pixel icons, **16 × 12 px**. Built for tight spaces — language switchers, leaderboards, address forms, data tables, status bars — anywhere a full-detail flag would turn to mush.
 
+**[Browse the full set in the gallery →](https://tgines.github.io/pixel-flags/)** · install with `npm i pixel-flags`, or load any flag straight from a CDN — no install required.
+
 Every flag ships in three formats so you can drop it into a website, an app, or a design file without converting anything:
 
 | Folder | Format | Size | Best for |
@@ -29,6 +31,20 @@ png-2x/st-sao-tome-and-principe.png
 A few entries fall outside ISO: the EU uses its reserved `eu`, England uses the subdivision code `gb-eng`, and Mars has no code (just `mars.svg`). See the [full list](#coverage) for every code.
 
 ## Usage
+
+**Install** with npm — the package ships the `svg/`, `png/`, and `png-2x/` folders plus [`flags.json`](flags.json):
+
+```bash
+npm i pixel-flags
+```
+
+**CDN** — every flag is served by jsDelivr, no install or build step required:
+
+```html
+<img src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/br-brazil.svg" width="16" height="12" alt="Brazil" />
+```
+
+Swap `@main` for a release tag like `@1.0.0` to pin an immutable version.
 
 **HTML**
 
@@ -58,6 +74,30 @@ A few entries fall outside ISO: the EU uses its reserved `eu`, England uses the 
 <img src={`/flags/svg/${code}-${slug}.svg`} width={16} height={12} alt={name} />
 ```
 
+## Machine-readable index
+
+Every flag is listed in [`flags.json`](flags.json) with its code, name, slug, and the path to each format — one file you can fetch to enumerate the whole set programmatically. Handy for build scripts, design tooling, and AI agents wiring up flags from an ISO code:
+
+```json
+{
+  "code": "br",
+  "name": "Brazil",
+  "slug": "br-brazil",
+  "svg": "svg/br-brazil.svg",
+  "png": "png/br-brazil.png",
+  "png2x": "png-2x/br-brazil.png"
+}
+```
+
+```js
+const { flags } = await fetch(
+  "https://raw.githubusercontent.com/tgines/pixel-flags/main/flags.json"
+).then((r) => r.json());
+
+const brazil = flags.find((f) => f.code === "br");
+// https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/br-brazil.svg
+```
+
 ## Coverage
 
 200 flags spanning every region, plus a handful of extras (the EU, England, Puerto Rico, Vatican City — and Mars, for fun).
@@ -74,6 +114,8 @@ Afghanistan `af`, Albania `al`, Algeria `dz`, Andorra `ad`, Angola `ao`, Antigua
 ## Contributing
 
 Spotted a flag that needs fixing, or want to add one that's missing? Open an issue or a pull request. Please keep new flags to the same **16 × 12 px** grid and provide all three formats (`svg`, `png`, `png-2x`) so the set stays consistent.
+
+After adding the files and an entry to the A–Z list above, run `npm run build` to regenerate [`flags.json`](flags.json) and the gallery — a check that also verifies every flag has all three formats.
 
 ### Palette
 

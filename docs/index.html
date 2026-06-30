@@ -1,0 +1,888 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pixel Flags — 200 tiny 16×12 country flag icons (SVG &amp; PNG)</title>
+<meta name="description" content="A free open-source set of 200 country flag icons drawn as crisp 16×12 pixel-art. Download SVG, PNG, and 2× PNG, or load any flag from a CDN. MIT licensed.">
+<link rel="canonical" href="https://tgines.github.io/pixel-flags/">
+<meta property="og:title" content="Pixel Flags — 200 tiny pixel-art country flag icons">
+<meta property="og:description" content="Free 16×12 flag icons in SVG and PNG. MIT licensed.">
+<meta property="og:type" content="website">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareSourceCode",
+  "name": "Pixel Flags",
+  "description": "200 country (and a few extra) flags as crisp 16×12 pixel-art icons — SVG, PNG, and 2× PNG. Tiny flag icons for language switchers, leaderboards, tables, and forms.",
+  "codeRepository": "https://github.com/tgines/pixel-flags",
+  "license": "https://opensource.org/licenses/MIT",
+  "programmingLanguage": "SVG",
+  "keywords": "flags, flag, icons, flag-icons, country-flags, national-flags, svg, svg-icons, pixel-art, pixel, 16x12, iso-3166, country, tiny-icons, flag-svg"
+}
+</script>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 0; padding: 2rem 1.25rem 4rem; max-width: 1100px; margin-inline: auto; line-height: 1.5; }
+  h1 { font-size: 1.9rem; margin: 0 0 .25rem; }
+  .lede { color: #6b7280; margin: 0 0 1.5rem; max-width: 60ch; }
+  .lede code { background: #8881; padding: .1em .35em; border-radius: 4px; font-size: .9em; }
+  a { color: #3273d3; }
+  .search { width: 100%; max-width: 360px; padding: .6rem .8rem; font-size: 1rem; border: 1px solid #8884; border-radius: 8px; margin-bottom: 1.5rem; background: #8881; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: .6rem; }
+  .flag { margin: 0; padding: .8rem .6rem; border: 1px solid #8883; border-radius: 10px; text-align: center; cursor: pointer; transition: border-color .15s, background .15s; }
+  .flag:hover { border-color: #3273d3; background: #3273d311; }
+  .flag img { image-rendering: auto; box-shadow: 0 0 0 1px #8882; border-radius: 2px; }
+  figcaption { margin-top: .5rem; font-size: .82rem; display: flex; flex-direction: column; gap: .1rem; }
+  .name { font-weight: 600; }
+  .code { color: #6b7280; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .78rem; }
+  .empty { color: #6b7280; padding: 2rem 0; display: none; }
+  footer { margin-top: 3rem; color: #6b7280; font-size: .85rem; }
+  .toast { position: fixed; bottom: 1.5rem; left: 50%; transform: translateX(-50%) translateY(2rem); background: #111; color: #fff; padding: .6rem 1rem; border-radius: 8px; opacity: 0; transition: opacity .2s, transform .2s; pointer-events: none; font-size: .9rem; }
+  .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+</style>
+</head>
+<body>
+  <h1>Pixel Flags</h1>
+  <p class="lede">200 country (and a few extra) flags as crisp <strong>16×12</strong> pixel-art icons — in SVG, PNG, and 2× PNG. Free &amp; MIT licensed. Click any flag to copy its CDN URL. <a href="https://github.com/tgines/pixel-flags">View on GitHub →</a></p>
+  <input class="search" type="search" placeholder="Search 200 flags by name or code…" aria-label="Search flags" autocomplete="off">
+  <div class="grid">
+      <figure class="flag" data-name="afghanistan" data-code="af">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/af-afghanistan.svg" alt="Flag of Afghanistan">
+        <figcaption><span class="name">Afghanistan</span><span class="code">af</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="albania" data-code="al">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/al-albania.svg" alt="Flag of Albania">
+        <figcaption><span class="name">Albania</span><span class="code">al</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="algeria" data-code="dz">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/dz-algeria.svg" alt="Flag of Algeria">
+        <figcaption><span class="name">Algeria</span><span class="code">dz</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="andorra" data-code="ad">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/ad-andorra.svg" alt="Flag of Andorra">
+        <figcaption><span class="name">Andorra</span><span class="code">ad</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="angola" data-code="ao">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/ao-angola.svg" alt="Flag of Angola">
+        <figcaption><span class="name">Angola</span><span class="code">ao</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="antigua and barbuda" data-code="ag">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/ag-antigua-and-barbuda.svg" alt="Flag of Antigua and Barbuda">
+        <figcaption><span class="name">Antigua and Barbuda</span><span class="code">ag</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="argentina" data-code="ar">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/ar-argentina.svg" alt="Flag of Argentina">
+        <figcaption><span class="name">Argentina</span><span class="code">ar</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="armenia" data-code="am">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/am-armenia.svg" alt="Flag of Armenia">
+        <figcaption><span class="name">Armenia</span><span class="code">am</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="australia" data-code="au">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/au-australia.svg" alt="Flag of Australia">
+        <figcaption><span class="name">Australia</span><span class="code">au</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="austria" data-code="at">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/at-austria.svg" alt="Flag of Austria">
+        <figcaption><span class="name">Austria</span><span class="code">at</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="azerbaijan" data-code="az">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/az-azerbaijan.svg" alt="Flag of Azerbaijan">
+        <figcaption><span class="name">Azerbaijan</span><span class="code">az</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="bahamas" data-code="bs">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/bs-bahamas.svg" alt="Flag of Bahamas">
+        <figcaption><span class="name">Bahamas</span><span class="code">bs</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="bahrain" data-code="bh">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/bh-bahrain.svg" alt="Flag of Bahrain">
+        <figcaption><span class="name">Bahrain</span><span class="code">bh</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="bangladesh" data-code="bd">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/bd-bangladesh.svg" alt="Flag of Bangladesh">
+        <figcaption><span class="name">Bangladesh</span><span class="code">bd</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="barbados" data-code="bb">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/bb-barbados.svg" alt="Flag of Barbados">
+        <figcaption><span class="name">Barbados</span><span class="code">bb</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="belarus" data-code="by">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/by-belarus.svg" alt="Flag of Belarus">
+        <figcaption><span class="name">Belarus</span><span class="code">by</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="belgium" data-code="be">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/be-belgium.svg" alt="Flag of Belgium">
+        <figcaption><span class="name">Belgium</span><span class="code">be</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="belize" data-code="bz">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/bz-belize.svg" alt="Flag of Belize">
+        <figcaption><span class="name">Belize</span><span class="code">bz</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="benin" data-code="bj">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/bj-benin.svg" alt="Flag of Benin">
+        <figcaption><span class="name">Benin</span><span class="code">bj</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="bhutan" data-code="bt">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/bt-bhutan.svg" alt="Flag of Bhutan">
+        <figcaption><span class="name">Bhutan</span><span class="code">bt</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="bolivia" data-code="bo">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/bo-bolivia.svg" alt="Flag of Bolivia">
+        <figcaption><span class="name">Bolivia</span><span class="code">bo</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="bosnia herzegovina" data-code="ba">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/ba-bosnia-herzegovina.svg" alt="Flag of Bosnia Herzegovina">
+        <figcaption><span class="name">Bosnia Herzegovina</span><span class="code">ba</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="botswana" data-code="bw">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/bw-botswana.svg" alt="Flag of Botswana">
+        <figcaption><span class="name">Botswana</span><span class="code">bw</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="brazil" data-code="br">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/br-brazil.svg" alt="Flag of Brazil">
+        <figcaption><span class="name">Brazil</span><span class="code">br</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="brunei" data-code="bn">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/bn-brunei.svg" alt="Flag of Brunei">
+        <figcaption><span class="name">Brunei</span><span class="code">bn</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="bulgaria" data-code="bg">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/bg-bulgaria.svg" alt="Flag of Bulgaria">
+        <figcaption><span class="name">Bulgaria</span><span class="code">bg</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="burkina faso" data-code="bf">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/bf-burkina-faso.svg" alt="Flag of Burkina Faso">
+        <figcaption><span class="name">Burkina Faso</span><span class="code">bf</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="burundi" data-code="bi">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/bi-burundi.svg" alt="Flag of Burundi">
+        <figcaption><span class="name">Burundi</span><span class="code">bi</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="cambodia" data-code="kh">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/kh-cambodia.svg" alt="Flag of Cambodia">
+        <figcaption><span class="name">Cambodia</span><span class="code">kh</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="cameroon" data-code="cm">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/cm-cameroon.svg" alt="Flag of Cameroon">
+        <figcaption><span class="name">Cameroon</span><span class="code">cm</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="canada" data-code="ca">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/ca-canada.svg" alt="Flag of Canada">
+        <figcaption><span class="name">Canada</span><span class="code">ca</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="cape verde" data-code="cv">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/cv-cape-verde.svg" alt="Flag of Cape Verde">
+        <figcaption><span class="name">Cape Verde</span><span class="code">cv</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="central african republic" data-code="cf">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/cf-central-african-republic.svg" alt="Flag of Central African Republic">
+        <figcaption><span class="name">Central African Republic</span><span class="code">cf</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="chad" data-code="td">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/td-chad.svg" alt="Flag of Chad">
+        <figcaption><span class="name">Chad</span><span class="code">td</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="chile" data-code="cl">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/cl-chile.svg" alt="Flag of Chile">
+        <figcaption><span class="name">Chile</span><span class="code">cl</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="china" data-code="cn">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/cn-china.svg" alt="Flag of China">
+        <figcaption><span class="name">China</span><span class="code">cn</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="colombia" data-code="co">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/co-colombia.svg" alt="Flag of Colombia">
+        <figcaption><span class="name">Colombia</span><span class="code">co</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="comoros" data-code="km">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/km-comoros.svg" alt="Flag of Comoros">
+        <figcaption><span class="name">Comoros</span><span class="code">km</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="congo" data-code="cg">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/cg-congo.svg" alt="Flag of Congo">
+        <figcaption><span class="name">Congo</span><span class="code">cg</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="costa rica" data-code="cr">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/cr-costa-rica.svg" alt="Flag of Costa Rica">
+        <figcaption><span class="name">Costa Rica</span><span class="code">cr</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="croatia" data-code="hr">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/hr-croatia.svg" alt="Flag of Croatia">
+        <figcaption><span class="name">Croatia</span><span class="code">hr</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="cuba" data-code="cu">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/cu-cuba.svg" alt="Flag of Cuba">
+        <figcaption><span class="name">Cuba</span><span class="code">cu</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="cyprus" data-code="cy">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/cy-cyprus.svg" alt="Flag of Cyprus">
+        <figcaption><span class="name">Cyprus</span><span class="code">cy</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="czechia" data-code="cz">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/cz-czechia.svg" alt="Flag of Czechia">
+        <figcaption><span class="name">Czechia</span><span class="code">cz</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="denmark" data-code="dk">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/dk-denmark.svg" alt="Flag of Denmark">
+        <figcaption><span class="name">Denmark</span><span class="code">dk</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="djibouti" data-code="dj">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/dj-djibouti.svg" alt="Flag of Djibouti">
+        <figcaption><span class="name">Djibouti</span><span class="code">dj</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="dominica" data-code="dm">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/dm-dominica.svg" alt="Flag of Dominica">
+        <figcaption><span class="name">Dominica</span><span class="code">dm</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="dominican republic" data-code="do">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/do-dominican-republic.svg" alt="Flag of Dominican Republic">
+        <figcaption><span class="name">Dominican Republic</span><span class="code">do</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="dr congo" data-code="cd">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/cd-dr-congo.svg" alt="Flag of DR Congo">
+        <figcaption><span class="name">DR Congo</span><span class="code">cd</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="east timor" data-code="tl">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/tl-east-timor.svg" alt="Flag of East Timor">
+        <figcaption><span class="name">East Timor</span><span class="code">tl</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="ecuador" data-code="ec">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/ec-ecuador.svg" alt="Flag of Ecuador">
+        <figcaption><span class="name">Ecuador</span><span class="code">ec</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="egypt" data-code="eg">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/eg-egypt.svg" alt="Flag of Egypt">
+        <figcaption><span class="name">Egypt</span><span class="code">eg</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="el salvador" data-code="sv">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/sv-el-salvador.svg" alt="Flag of El Salvador">
+        <figcaption><span class="name">El Salvador</span><span class="code">sv</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="england" data-code="gb-eng">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/gb-eng-england.svg" alt="Flag of England">
+        <figcaption><span class="name">England</span><span class="code">gb-eng</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="equatorial guinea" data-code="gq">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/gq-equatorial-guinea.svg" alt="Flag of Equatorial Guinea">
+        <figcaption><span class="name">Equatorial Guinea</span><span class="code">gq</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="eritrea" data-code="er">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/er-eritrea.svg" alt="Flag of Eritrea">
+        <figcaption><span class="name">Eritrea</span><span class="code">er</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="estonia" data-code="ee">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/ee-estonia.svg" alt="Flag of Estonia">
+        <figcaption><span class="name">Estonia</span><span class="code">ee</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="eswatini" data-code="sz">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/sz-eswatini.svg" alt="Flag of Eswatini">
+        <figcaption><span class="name">Eswatini</span><span class="code">sz</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="ethiopia" data-code="et">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/et-ethiopia.svg" alt="Flag of Ethiopia">
+        <figcaption><span class="name">Ethiopia</span><span class="code">et</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="european union" data-code="eu">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/eu-european-union.svg" alt="Flag of European Union">
+        <figcaption><span class="name">European Union</span><span class="code">eu</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="fiji" data-code="fj">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/fj-fiji.svg" alt="Flag of Fiji">
+        <figcaption><span class="name">Fiji</span><span class="code">fj</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="finland" data-code="fi">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/fi-finland.svg" alt="Flag of Finland">
+        <figcaption><span class="name">Finland</span><span class="code">fi</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="france" data-code="fr">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/fr-france.svg" alt="Flag of France">
+        <figcaption><span class="name">France</span><span class="code">fr</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="gabon" data-code="ga">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/ga-gabon.svg" alt="Flag of Gabon">
+        <figcaption><span class="name">Gabon</span><span class="code">ga</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="gambia" data-code="gm">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/gm-gambia.svg" alt="Flag of Gambia">
+        <figcaption><span class="name">Gambia</span><span class="code">gm</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="georgia" data-code="ge">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/ge-georgia.svg" alt="Flag of Georgia">
+        <figcaption><span class="name">Georgia</span><span class="code">ge</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="germany" data-code="de">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/de-germany.svg" alt="Flag of Germany">
+        <figcaption><span class="name">Germany</span><span class="code">de</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="ghana" data-code="gh">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/gh-ghana.svg" alt="Flag of Ghana">
+        <figcaption><span class="name">Ghana</span><span class="code">gh</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="greece" data-code="gr">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/gr-greece.svg" alt="Flag of Greece">
+        <figcaption><span class="name">Greece</span><span class="code">gr</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="grenada" data-code="gd">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/gd-grenada.svg" alt="Flag of Grenada">
+        <figcaption><span class="name">Grenada</span><span class="code">gd</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="guatemala" data-code="gt">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/gt-guatemala.svg" alt="Flag of Guatemala">
+        <figcaption><span class="name">Guatemala</span><span class="code">gt</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="guinea" data-code="gn">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/gn-guinea.svg" alt="Flag of Guinea">
+        <figcaption><span class="name">Guinea</span><span class="code">gn</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="guinea bissau" data-code="gw">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/gw-guinea-bissau.svg" alt="Flag of Guinea Bissau">
+        <figcaption><span class="name">Guinea Bissau</span><span class="code">gw</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="guyana" data-code="gy">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/gy-guyana.svg" alt="Flag of Guyana">
+        <figcaption><span class="name">Guyana</span><span class="code">gy</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="haiti" data-code="ht">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/ht-haiti.svg" alt="Flag of Haiti">
+        <figcaption><span class="name">Haiti</span><span class="code">ht</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="honduras" data-code="hn">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/hn-honduras.svg" alt="Flag of Honduras">
+        <figcaption><span class="name">Honduras</span><span class="code">hn</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="hungary" data-code="hu">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/hu-hungary.svg" alt="Flag of Hungary">
+        <figcaption><span class="name">Hungary</span><span class="code">hu</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="iceland" data-code="is">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/is-iceland.svg" alt="Flag of Iceland">
+        <figcaption><span class="name">Iceland</span><span class="code">is</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="india" data-code="in">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/in-india.svg" alt="Flag of India">
+        <figcaption><span class="name">India</span><span class="code">in</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="indonesia" data-code="id">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/id-indonesia.svg" alt="Flag of Indonesia">
+        <figcaption><span class="name">Indonesia</span><span class="code">id</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="iran" data-code="ir">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/ir-iran.svg" alt="Flag of Iran">
+        <figcaption><span class="name">Iran</span><span class="code">ir</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="iraq" data-code="iq">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/iq-iraq.svg" alt="Flag of Iraq">
+        <figcaption><span class="name">Iraq</span><span class="code">iq</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="ireland" data-code="ie">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/ie-ireland.svg" alt="Flag of Ireland">
+        <figcaption><span class="name">Ireland</span><span class="code">ie</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="israel" data-code="il">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/il-israel.svg" alt="Flag of Israel">
+        <figcaption><span class="name">Israel</span><span class="code">il</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="italy" data-code="it">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/it-italy.svg" alt="Flag of Italy">
+        <figcaption><span class="name">Italy</span><span class="code">it</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="ivory coast" data-code="ci">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/ci-ivory-coast.svg" alt="Flag of Ivory Coast">
+        <figcaption><span class="name">Ivory Coast</span><span class="code">ci</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="jamaica" data-code="jm">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/jm-jamaica.svg" alt="Flag of Jamaica">
+        <figcaption><span class="name">Jamaica</span><span class="code">jm</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="japan" data-code="jp">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/jp-japan.svg" alt="Flag of Japan">
+        <figcaption><span class="name">Japan</span><span class="code">jp</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="jordan" data-code="jo">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/jo-jordan.svg" alt="Flag of Jordan">
+        <figcaption><span class="name">Jordan</span><span class="code">jo</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="kazakhstan" data-code="kz">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/kz-kazakhstan.svg" alt="Flag of Kazakhstan">
+        <figcaption><span class="name">Kazakhstan</span><span class="code">kz</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="kenya" data-code="ke">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/ke-kenya.svg" alt="Flag of Kenya">
+        <figcaption><span class="name">Kenya</span><span class="code">ke</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="kiribati" data-code="ki">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/ki-kiribati.svg" alt="Flag of Kiribati">
+        <figcaption><span class="name">Kiribati</span><span class="code">ki</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="kosovo" data-code="xk">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/xk-kosovo.svg" alt="Flag of Kosovo">
+        <figcaption><span class="name">Kosovo</span><span class="code">xk</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="kuwait" data-code="kw">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/kw-kuwait.svg" alt="Flag of Kuwait">
+        <figcaption><span class="name">Kuwait</span><span class="code">kw</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="kyrgyzstan" data-code="kg">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/kg-kyrgyzstan.svg" alt="Flag of Kyrgyzstan">
+        <figcaption><span class="name">Kyrgyzstan</span><span class="code">kg</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="laos" data-code="la">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/la-laos.svg" alt="Flag of Laos">
+        <figcaption><span class="name">Laos</span><span class="code">la</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="latvia" data-code="lv">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/lv-latvia.svg" alt="Flag of Latvia">
+        <figcaption><span class="name">Latvia</span><span class="code">lv</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="lebanon" data-code="lb">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/lb-lebanon.svg" alt="Flag of Lebanon">
+        <figcaption><span class="name">Lebanon</span><span class="code">lb</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="lesotho" data-code="ls">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/ls-lesotho.svg" alt="Flag of Lesotho">
+        <figcaption><span class="name">Lesotho</span><span class="code">ls</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="liberia" data-code="lr">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/lr-liberia.svg" alt="Flag of Liberia">
+        <figcaption><span class="name">Liberia</span><span class="code">lr</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="libya" data-code="ly">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/ly-libya.svg" alt="Flag of Libya">
+        <figcaption><span class="name">Libya</span><span class="code">ly</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="liechtenstein" data-code="li">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/li-liechtenstein.svg" alt="Flag of Liechtenstein">
+        <figcaption><span class="name">Liechtenstein</span><span class="code">li</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="lithuania" data-code="lt">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/lt-lithuania.svg" alt="Flag of Lithuania">
+        <figcaption><span class="name">Lithuania</span><span class="code">lt</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="luxembourg" data-code="lu">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/lu-luxembourg.svg" alt="Flag of Luxembourg">
+        <figcaption><span class="name">Luxembourg</span><span class="code">lu</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="madagascar" data-code="mg">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/mg-madagascar.svg" alt="Flag of Madagascar">
+        <figcaption><span class="name">Madagascar</span><span class="code">mg</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="malawi" data-code="mw">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/mw-malawi.svg" alt="Flag of Malawi">
+        <figcaption><span class="name">Malawi</span><span class="code">mw</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="malaysia" data-code="my">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/my-malaysia.svg" alt="Flag of Malaysia">
+        <figcaption><span class="name">Malaysia</span><span class="code">my</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="maldives" data-code="mv">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/mv-maldives.svg" alt="Flag of Maldives">
+        <figcaption><span class="name">Maldives</span><span class="code">mv</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="mali" data-code="ml">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/ml-mali.svg" alt="Flag of Mali">
+        <figcaption><span class="name">Mali</span><span class="code">ml</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="malta" data-code="mt">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/mt-malta.svg" alt="Flag of Malta">
+        <figcaption><span class="name">Malta</span><span class="code">mt</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="mars" data-code="—">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/mars.svg" alt="Flag of Mars">
+        <figcaption><span class="name">Mars</span><span class="code">—</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="marshall islands" data-code="mh">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/mh-marshall-islands.svg" alt="Flag of Marshall Islands">
+        <figcaption><span class="name">Marshall Islands</span><span class="code">mh</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="mauritania" data-code="mr">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/mr-mauritania.svg" alt="Flag of Mauritania">
+        <figcaption><span class="name">Mauritania</span><span class="code">mr</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="mauritius" data-code="mu">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/mu-mauritius.svg" alt="Flag of Mauritius">
+        <figcaption><span class="name">Mauritius</span><span class="code">mu</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="mexico" data-code="mx">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/mx-mexico.svg" alt="Flag of Mexico">
+        <figcaption><span class="name">Mexico</span><span class="code">mx</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="micronesia" data-code="fm">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/fm-micronesia.svg" alt="Flag of Micronesia">
+        <figcaption><span class="name">Micronesia</span><span class="code">fm</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="moldova" data-code="md">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/md-moldova.svg" alt="Flag of Moldova">
+        <figcaption><span class="name">Moldova</span><span class="code">md</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="monaco" data-code="mc">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/mc-monaco.svg" alt="Flag of Monaco">
+        <figcaption><span class="name">Monaco</span><span class="code">mc</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="mongolia" data-code="mn">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/mn-mongolia.svg" alt="Flag of Mongolia">
+        <figcaption><span class="name">Mongolia</span><span class="code">mn</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="montenegro" data-code="me">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/me-montenegro.svg" alt="Flag of Montenegro">
+        <figcaption><span class="name">Montenegro</span><span class="code">me</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="morocco" data-code="ma">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/ma-morocco.svg" alt="Flag of Morocco">
+        <figcaption><span class="name">Morocco</span><span class="code">ma</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="mozambique" data-code="mz">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/mz-mozambique.svg" alt="Flag of Mozambique">
+        <figcaption><span class="name">Mozambique</span><span class="code">mz</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="myanmar" data-code="mm">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/mm-myanmar.svg" alt="Flag of Myanmar">
+        <figcaption><span class="name">Myanmar</span><span class="code">mm</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="namibia" data-code="na">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/na-namibia.svg" alt="Flag of Namibia">
+        <figcaption><span class="name">Namibia</span><span class="code">na</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="nauru" data-code="nr">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/nr-nauru.svg" alt="Flag of Nauru">
+        <figcaption><span class="name">Nauru</span><span class="code">nr</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="nepal" data-code="np">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/np-nepal.svg" alt="Flag of Nepal">
+        <figcaption><span class="name">Nepal</span><span class="code">np</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="netherlands" data-code="nl">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/nl-netherlands.svg" alt="Flag of Netherlands">
+        <figcaption><span class="name">Netherlands</span><span class="code">nl</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="new zealand" data-code="nz">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/nz-new-zealand.svg" alt="Flag of New Zealand">
+        <figcaption><span class="name">New Zealand</span><span class="code">nz</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="nicaragua" data-code="ni">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/ni-nicaragua.svg" alt="Flag of Nicaragua">
+        <figcaption><span class="name">Nicaragua</span><span class="code">ni</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="niger" data-code="ne">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/ne-niger.svg" alt="Flag of Niger">
+        <figcaption><span class="name">Niger</span><span class="code">ne</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="nigeria" data-code="ng">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/ng-nigeria.svg" alt="Flag of Nigeria">
+        <figcaption><span class="name">Nigeria</span><span class="code">ng</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="north korea" data-code="kp">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/kp-north-korea.svg" alt="Flag of North Korea">
+        <figcaption><span class="name">North Korea</span><span class="code">kp</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="north macedonia" data-code="mk">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/mk-north-macedonia.svg" alt="Flag of North Macedonia">
+        <figcaption><span class="name">North Macedonia</span><span class="code">mk</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="norway" data-code="no">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/no-norway.svg" alt="Flag of Norway">
+        <figcaption><span class="name">Norway</span><span class="code">no</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="oman" data-code="om">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/om-oman.svg" alt="Flag of Oman">
+        <figcaption><span class="name">Oman</span><span class="code">om</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="pakistan" data-code="pk">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/pk-pakistan.svg" alt="Flag of Pakistan">
+        <figcaption><span class="name">Pakistan</span><span class="code">pk</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="palau" data-code="pw">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/pw-palau.svg" alt="Flag of Palau">
+        <figcaption><span class="name">Palau</span><span class="code">pw</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="palestine" data-code="ps">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/ps-palestine.svg" alt="Flag of Palestine">
+        <figcaption><span class="name">Palestine</span><span class="code">ps</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="panama" data-code="pa">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/pa-panama.svg" alt="Flag of Panama">
+        <figcaption><span class="name">Panama</span><span class="code">pa</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="papua new guinea" data-code="pg">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/pg-papua-new-guinea.svg" alt="Flag of Papua New Guinea">
+        <figcaption><span class="name">Papua New Guinea</span><span class="code">pg</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="paraguay" data-code="py">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/py-paraguay.svg" alt="Flag of Paraguay">
+        <figcaption><span class="name">Paraguay</span><span class="code">py</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="peru" data-code="pe">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/pe-peru.svg" alt="Flag of Peru">
+        <figcaption><span class="name">Peru</span><span class="code">pe</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="philippines" data-code="ph">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/ph-philippines.svg" alt="Flag of Philippines">
+        <figcaption><span class="name">Philippines</span><span class="code">ph</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="poland" data-code="pl">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/pl-poland.svg" alt="Flag of Poland">
+        <figcaption><span class="name">Poland</span><span class="code">pl</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="portugal" data-code="pt">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/pt-portugal.svg" alt="Flag of Portugal">
+        <figcaption><span class="name">Portugal</span><span class="code">pt</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="puerto rico" data-code="pr">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/pr-puerto-rico.svg" alt="Flag of Puerto Rico">
+        <figcaption><span class="name">Puerto Rico</span><span class="code">pr</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="qatar" data-code="qa">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/qa-qatar.svg" alt="Flag of Qatar">
+        <figcaption><span class="name">Qatar</span><span class="code">qa</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="romania" data-code="ro">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/ro-romania.svg" alt="Flag of Romania">
+        <figcaption><span class="name">Romania</span><span class="code">ro</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="russia" data-code="ru">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/ru-russia.svg" alt="Flag of Russia">
+        <figcaption><span class="name">Russia</span><span class="code">ru</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="rwanda" data-code="rw">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/rw-rwanda.svg" alt="Flag of Rwanda">
+        <figcaption><span class="name">Rwanda</span><span class="code">rw</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="saint kitts and nevis" data-code="kn">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/kn-saint-kitts-and-nevis.svg" alt="Flag of Saint Kitts and Nevis">
+        <figcaption><span class="name">Saint Kitts and Nevis</span><span class="code">kn</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="saint lucia" data-code="lc">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/lc-saint-lucia.svg" alt="Flag of Saint Lucia">
+        <figcaption><span class="name">Saint Lucia</span><span class="code">lc</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="saint vincent" data-code="vc">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/vc-saint-vincent.svg" alt="Flag of Saint Vincent">
+        <figcaption><span class="name">Saint Vincent</span><span class="code">vc</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="samoa" data-code="ws">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/ws-samoa.svg" alt="Flag of Samoa">
+        <figcaption><span class="name">Samoa</span><span class="code">ws</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="san marino" data-code="sm">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/sm-san-marino.svg" alt="Flag of San Marino">
+        <figcaption><span class="name">San Marino</span><span class="code">sm</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="são tomé and príncipe" data-code="st">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/st-sao-tome-and-principe.svg" alt="Flag of São Tomé and Príncipe">
+        <figcaption><span class="name">São Tomé and Príncipe</span><span class="code">st</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="saudi arabia" data-code="sa">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/sa-saudi-arabia.svg" alt="Flag of Saudi Arabia">
+        <figcaption><span class="name">Saudi Arabia</span><span class="code">sa</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="senegal" data-code="sn">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/sn-senegal.svg" alt="Flag of Senegal">
+        <figcaption><span class="name">Senegal</span><span class="code">sn</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="serbia" data-code="rs">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/rs-serbia.svg" alt="Flag of Serbia">
+        <figcaption><span class="name">Serbia</span><span class="code">rs</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="seychelles" data-code="sc">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/sc-seychelles.svg" alt="Flag of Seychelles">
+        <figcaption><span class="name">Seychelles</span><span class="code">sc</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="sierra leone" data-code="sl">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/sl-sierra-leone.svg" alt="Flag of Sierra Leone">
+        <figcaption><span class="name">Sierra Leone</span><span class="code">sl</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="singapore" data-code="sg">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/sg-singapore.svg" alt="Flag of Singapore">
+        <figcaption><span class="name">Singapore</span><span class="code">sg</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="slovakia" data-code="sk">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/sk-slovakia.svg" alt="Flag of Slovakia">
+        <figcaption><span class="name">Slovakia</span><span class="code">sk</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="slovenia" data-code="si">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/si-slovenia.svg" alt="Flag of Slovenia">
+        <figcaption><span class="name">Slovenia</span><span class="code">si</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="solomon islands" data-code="sb">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/sb-solomon-islands.svg" alt="Flag of Solomon Islands">
+        <figcaption><span class="name">Solomon Islands</span><span class="code">sb</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="somalia" data-code="so">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/so-somalia.svg" alt="Flag of Somalia">
+        <figcaption><span class="name">Somalia</span><span class="code">so</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="south africa" data-code="za">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/za-south-africa.svg" alt="Flag of South Africa">
+        <figcaption><span class="name">South Africa</span><span class="code">za</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="south korea" data-code="kr">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/kr-south-korea.svg" alt="Flag of South Korea">
+        <figcaption><span class="name">South Korea</span><span class="code">kr</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="south sudan" data-code="ss">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/ss-south-sudan.svg" alt="Flag of South Sudan">
+        <figcaption><span class="name">South Sudan</span><span class="code">ss</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="spain" data-code="es">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/es-spain.svg" alt="Flag of Spain">
+        <figcaption><span class="name">Spain</span><span class="code">es</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="sri lanka" data-code="lk">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/lk-sri-lanka.svg" alt="Flag of Sri Lanka">
+        <figcaption><span class="name">Sri Lanka</span><span class="code">lk</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="sudan" data-code="sd">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/sd-sudan.svg" alt="Flag of Sudan">
+        <figcaption><span class="name">Sudan</span><span class="code">sd</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="suriname" data-code="sr">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/sr-suriname.svg" alt="Flag of Suriname">
+        <figcaption><span class="name">Suriname</span><span class="code">sr</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="sweden" data-code="se">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/se-sweden.svg" alt="Flag of Sweden">
+        <figcaption><span class="name">Sweden</span><span class="code">se</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="switzerland" data-code="ch">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/ch-switzerland.svg" alt="Flag of Switzerland">
+        <figcaption><span class="name">Switzerland</span><span class="code">ch</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="syria" data-code="sy">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/sy-syria.svg" alt="Flag of Syria">
+        <figcaption><span class="name">Syria</span><span class="code">sy</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="tajikistan" data-code="tj">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/tj-tajikistan.svg" alt="Flag of Tajikistan">
+        <figcaption><span class="name">Tajikistan</span><span class="code">tj</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="tanzania" data-code="tz">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/tz-tanzania.svg" alt="Flag of Tanzania">
+        <figcaption><span class="name">Tanzania</span><span class="code">tz</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="thailand" data-code="th">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/th-thailand.svg" alt="Flag of Thailand">
+        <figcaption><span class="name">Thailand</span><span class="code">th</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="togo" data-code="tg">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/tg-togo.svg" alt="Flag of Togo">
+        <figcaption><span class="name">Togo</span><span class="code">tg</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="tonga" data-code="to">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/to-tonga.svg" alt="Flag of Tonga">
+        <figcaption><span class="name">Tonga</span><span class="code">to</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="trinidad and tobago" data-code="tt">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/tt-trinidad-and-tobago.svg" alt="Flag of Trinidad and Tobago">
+        <figcaption><span class="name">Trinidad and Tobago</span><span class="code">tt</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="tunisia" data-code="tn">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/tn-tunisia.svg" alt="Flag of Tunisia">
+        <figcaption><span class="name">Tunisia</span><span class="code">tn</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="turkey" data-code="tr">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/tr-turkey.svg" alt="Flag of Turkey">
+        <figcaption><span class="name">Turkey</span><span class="code">tr</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="turkmenistan" data-code="tm">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/tm-turkmenistan.svg" alt="Flag of Turkmenistan">
+        <figcaption><span class="name">Turkmenistan</span><span class="code">tm</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="tuvalu" data-code="tv">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/tv-tuvalu.svg" alt="Flag of Tuvalu">
+        <figcaption><span class="name">Tuvalu</span><span class="code">tv</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="uganda" data-code="ug">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/ug-uganda.svg" alt="Flag of Uganda">
+        <figcaption><span class="name">Uganda</span><span class="code">ug</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="ukraine" data-code="ua">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/ua-ukraine.svg" alt="Flag of Ukraine">
+        <figcaption><span class="name">Ukraine</span><span class="code">ua</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="united arab emirates" data-code="ae">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/ae-united-arab-emirates.svg" alt="Flag of United Arab Emirates">
+        <figcaption><span class="name">United Arab Emirates</span><span class="code">ae</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="united kingdom" data-code="gb">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/gb-united-kingdom.svg" alt="Flag of United Kingdom">
+        <figcaption><span class="name">United Kingdom</span><span class="code">gb</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="united states" data-code="us">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/us-united-states.svg" alt="Flag of United States">
+        <figcaption><span class="name">United States</span><span class="code">us</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="uruguay" data-code="uy">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/uy-uruguay.svg" alt="Flag of Uruguay">
+        <figcaption><span class="name">Uruguay</span><span class="code">uy</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="uzbekistan" data-code="uz">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/uz-uzbekistan.svg" alt="Flag of Uzbekistan">
+        <figcaption><span class="name">Uzbekistan</span><span class="code">uz</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="vanuatu" data-code="vu">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/vu-vanuatu.svg" alt="Flag of Vanuatu">
+        <figcaption><span class="name">Vanuatu</span><span class="code">vu</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="vatican city" data-code="va">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/va-vatican-city.svg" alt="Flag of Vatican City">
+        <figcaption><span class="name">Vatican City</span><span class="code">va</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="venezuela" data-code="ve">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/ve-venezuela.svg" alt="Flag of Venezuela">
+        <figcaption><span class="name">Venezuela</span><span class="code">ve</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="vietnam" data-code="vn">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/vn-vietnam.svg" alt="Flag of Vietnam">
+        <figcaption><span class="name">Vietnam</span><span class="code">vn</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="yemen" data-code="ye">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/ye-yemen.svg" alt="Flag of Yemen">
+        <figcaption><span class="name">Yemen</span><span class="code">ye</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="zambia" data-code="zm">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/zm-zambia.svg" alt="Flag of Zambia">
+        <figcaption><span class="name">Zambia</span><span class="code">zm</span></figcaption>
+      </figure>
+      <figure class="flag" data-name="zimbabwe" data-code="zw">
+        <img loading="lazy" width="48" height="36" src="https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/zw-zimbabwe.svg" alt="Flag of Zimbabwe">
+        <figcaption><span class="name">Zimbabwe</span><span class="code">zw</span></figcaption>
+      </figure>
+  </div>
+  <p class="empty">No flags match that search.</p>
+  <footer>
+    Load any flag straight from a CDN — no install:<br>
+    <code>https://cdn.jsdelivr.net/gh/tgines/pixel-flags@main/svg/br-brazil.svg</code><br><br>
+    Machine-readable index for tooling: <a href="https://github.com/tgines/pixel-flags/blob/main/flags.json">flags.json</a> ·
+    Install: <code>npm i pixel-flags</code>
+  </footer>
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script>
+    const search = document.querySelector(".search");
+    const flags = [...document.querySelectorAll(".flag")];
+    const empty = document.querySelector(".empty");
+    search.addEventListener("input", () => {
+      const q = search.value.trim().toLowerCase();
+      let shown = 0;
+      for (const f of flags) {
+        const hit = !q || f.dataset.name.includes(q) || f.dataset.code.includes(q);
+        f.style.display = hit ? "" : "none";
+        if (hit) shown++;
+      }
+      empty.style.display = shown ? "none" : "block";
+    });
+    const toast = document.querySelector(".toast");
+    let t;
+    for (const f of flags) {
+      f.addEventListener("click", async () => {
+        const url = f.querySelector("img").src;
+        try { await navigator.clipboard.writeText(url); } catch {}
+        toast.textContent = "Copied " + url;
+        toast.classList.add("show");
+        clearTimeout(t);
+        t = setTimeout(() => toast.classList.remove("show"), 1800);
+      });
+    }
+  </script>
+</body>
+</html>

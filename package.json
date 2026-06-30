@@ -1,0 +1,51 @@
+{
+  "name": "pixel-flags",
+  "version": "1.0.0",
+  "description": "200 country (and a few extra) flags as crisp 16×12 pixel-art icons — SVG, PNG, and 2× PNG. Tiny flag icons for language switchers, leaderboards, tables, and forms.",
+  "keywords": [
+    "flags",
+    "flag",
+    "icons",
+    "flag-icons",
+    "country-flags",
+    "national-flags",
+    "svg",
+    "svg-icons",
+    "pixel-art",
+    "pixel",
+    "16x12",
+    "iso-3166",
+    "country",
+    "tiny-icons",
+    "flag-svg"
+  ],
+  "homepage": "https://github.com/tgines/pixel-flags#readme",
+  "bugs": {
+    "url": "https://github.com/tgines/pixel-flags/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgines/pixel-flags.git"
+  },
+  "license": "MIT",
+  "author": "Tony Gines",
+  "type": "module",
+  "files": [
+    "svg",
+    "png",
+    "png-2x",
+    "flags.json"
+  ],
+  "exports": {
+    "./flags.json": "./flags.json",
+    "./svg/*": "./svg/*",
+    "./png/*": "./png/*",
+    "./png-2x/*": "./png-2x/*",
+    "./package.json": "./package.json"
+  },
+  "sideEffects": false,
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "prepublishOnly": "node scripts/build.mjs"
+  }
+}
