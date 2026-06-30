@@ -75,6 +75,21 @@ Afghanistan `af`, Albania `al`, Algeria `dz`, Andorra `ad`, Angola `ao`, Antigua
 
 Spotted a flag that needs fixing, or want to add one that's missing? Open an issue or a pull request. Please keep new flags to the same **16 × 12 px** grid and provide all three formats (`svg`, `png`, `png-2x`) so the set stays consistent.
 
+### Palette
+
+Flags are drawn from a shared 12-color palette. Reuse these so new flags stay cohesive with the set — reach for the closest existing swatch rather than introducing a new shade.
+
+![Pixel-flags color palette](docs/palette.svg)
+
+| Color | Hex | | Color | Hex |
+| --- | --- | --- | --- | --- |
+| Red | `#DC251C` | | Green | `#2B9F5A` |
+| Crimson | `#A71B14` | | Dark Green | `#1A5C35` |
+| Orange | `#FF8718` | | Light Blue | `#A0C0F1` |
+| Yellow | `#FFD018` | | Blue | `#3273D3` |
+| Gold | `#B2A46A` | | Dark Blue | `#2E4E9D` |
+| Black | `#272727` | | White | `#F5F8FB` |
+
 ## License
 
 [MIT](LICENSE) — free to use in personal and commercial projects, no attribution required (though it's always appreciated).
