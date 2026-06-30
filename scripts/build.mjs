@@ -19,6 +19,7 @@ const OWNER_REPO = "tgines/pixel-flags";
 // release tag) resolves. Consumers who want an immutable URL can swap @main for
 // a version tag like @1.0.0.
 const CDN = `https://cdn.jsdelivr.net/gh/${OWNER_REPO}@main`;
+const SITE = "https://tgines.github.io/pixel-flags/"; // GitHub Pages URL
 
 // --- 1. Parse the A–Z list out of the README -------------------------------
 const readme = readFileSync(join(root, "README.md"), "utf8");
@@ -216,4 +217,26 @@ ${cards}
 `;
 writeFileSync(join(root, "docs", "index.html"), html);
 
-console.log(`✓ Wrote flags.json (${flags.length} flags) and docs/index.html`);
+// --- 5. Crawlability for the Pages site (sitemap + robots) -----------------
+// The gallery is a single page, so the sitemap lists one URL. lastmod is
+// omitted on purpose to keep the build output deterministic (no spurious diffs
+// on every run). Submit this sitemap directly in Google Search Console / Bing.
+const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>${SITE}</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>
+`;
+writeFileSync(join(root, "docs", "sitemap.xml"), sitemap);
+
+const robots = `User-agent: *
+Allow: /
+
+Sitemap: ${SITE}sitemap.xml
+`;
+writeFileSync(join(root, "docs", "robots.txt"), robots);
+
+console.log(`✓ Wrote flags.json (${flags.length} flags), docs/index.html, sitemap.xml, robots.txt`);
