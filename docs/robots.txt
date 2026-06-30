@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tgines.github.io/pixel-flags/sitemap.xml
