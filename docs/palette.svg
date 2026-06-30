@@ -1,0 +1,54 @@
+<svg width="700" height="300" viewBox="0 0 700 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Pixel-flags color palette">
+  <rect x="0.5" y="0.5" width="699" height="299" rx="12" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" text-anchor="middle">
+    <!-- Row 0 -->
+    <rect x="44"  y="30" width="72" height="72" rx="10" fill="#DC251C" stroke="#27272720"/>
+    <text x="80"  y="122" font-size="13" font-weight="600" fill="#272727">Red</text>
+    <text x="80"  y="140" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" fill="#6B7280">#DC251C</text>
+
+    <rect x="152" y="30" width="72" height="72" rx="10" fill="#A71B14" stroke="#27272720"/>
+    <text x="188" y="122" font-size="13" font-weight="600" fill="#272727">Crimson</text>
+    <text x="188" y="140" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" fill="#6B7280">#A71B14</text>
+
+    <rect x="260" y="30" width="72" height="72" rx="10" fill="#FF8718" stroke="#27272720"/>
+    <text x="296" y="122" font-size="13" font-weight="600" fill="#272727">Orange</text>
+    <text x="296" y="140" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" fill="#6B7280">#FF8718</text>
+
+    <rect x="368" y="30" width="72" height="72" rx="10" fill="#FFD018" stroke="#27272720"/>
+    <text x="404" y="122" font-size="13" font-weight="600" fill="#272727">Yellow</text>
+    <text x="404" y="140" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" fill="#6B7280">#FFD018</text>
+
+    <rect x="476" y="30" width="72" height="72" rx="10" fill="#B2A46A" stroke="#27272720"/>
+    <text x="512" y="122" font-size="13" font-weight="600" fill="#272727">Gold</text>
+    <text x="512" y="140" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" fill="#6B7280">#B2A46A</text>
+
+    <rect x="584" y="30" width="72" height="72" rx="10" fill="#2B9F5A" stroke="#27272720"/>
+    <text x="620" y="122" font-size="13" font-weight="600" fill="#272727">Green</text>
+    <text x="620" y="140" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" fill="#6B7280">#2B9F5A</text>
+
+    <!-- Row 1 -->
+    <rect x="44"  y="160" width="72" height="72" rx="10" fill="#1A5C35" stroke="#27272720"/>
+    <text x="80"  y="252" font-size="13" font-weight="600" fill="#272727">Dark Green</text>
+    <text x="80"  y="270" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" fill="#6B7280">#1A5C35</text>
+
+    <rect x="152" y="160" width="72" height="72" rx="10" fill="#A0C0F1" stroke="#27272720"/>
+    <text x="188" y="252" font-size="13" font-weight="600" fill="#272727">Light Blue</text>
+    <text x="188" y="270" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" fill="#6B7280">#A0C0F1</text>
+
+    <rect x="260" y="160" width="72" height="72" rx="10" fill="#3273D3" stroke="#27272720"/>
+    <text x="296" y="252" font-size="13" font-weight="600" fill="#272727">Blue</text>
+    <text x="296" y="270" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" fill="#6B7280">#3273D3</text>
+
+    <rect x="368" y="160" width="72" height="72" rx="10" fill="#2E4E9D" stroke="#27272720"/>
+    <text x="404" y="252" font-size="13" font-weight="600" fill="#272727">Dark Blue</text>
+    <text x="404" y="270" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" fill="#6B7280">#2E4E9D</text>
+
+    <rect x="476" y="160" width="72" height="72" rx="10" fill="#272727" stroke="#27272720"/>
+    <text x="512" y="252" font-size="13" font-weight="600" fill="#272727">Black</text>
+    <text x="512" y="270" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" fill="#6B7280">#272727</text>
+
+    <rect x="584" y="160" width="72" height="72" rx="10" fill="#F5F8FB" stroke="#27272720"/>
+    <text x="620" y="252" font-size="13" font-weight="600" fill="#272727">White</text>
+    <text x="620" y="270" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" fill="#6B7280">#F5F8FB</text>
+  </g>
+</svg>
